@@ -19,12 +19,12 @@ mix.react('resources/js/app.js', 'public/js')
 mix.webpackConfig({
     devServer: {
         disableHostCheck: true
+    },
+    resolve: {
+        alias: {
+            'react-dom': '@hot-loader/react-dom'
+        }
     }
-    // resolve: {
-    //     alias: {
-    //         'react-dom': '@hot-loader/react-dom'
-    //     }
-    // }
 })
 // mix.sass('resources/sass/app.scss', 'public/css/app.css')
 mix.options({

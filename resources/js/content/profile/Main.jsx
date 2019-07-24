@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import autobind from 'autobind-decorator'
+// import { Link } from 'react-router-dom'
+// import autobind from 'autobind-decorator'
 import '../../../sass/custom.scss'
 
 class Main extends Component {
@@ -37,10 +37,10 @@ class Main extends Component {
                             </div>
 
                             <div className='uk-accordion-content uk-container ' uk-grid='true'>
-                                <div className='center '>
+                                <div className='center'>
                                     <img
                                         className='shadow'
-                                        src='./images/me.jpg'
+                                        src='./images/barong3.jpg'
                                         style={{
                                             height: 200,
                                             width: 150,
