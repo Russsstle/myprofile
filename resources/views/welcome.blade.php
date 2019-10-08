@@ -16,12 +16,14 @@
 
 
 @if(env('APP_ENV') == "production")
-  <script src="{{ mix('js/manifest.js') }}"></script>
-  <script src="{{ mix('js/vendor.js') }}"></script>
+  <script src="{{ asset('js/manifest.js') }}"></script>
+  <script src="{{ asset('js/vendor.js') }}"></script>
+
 @endif
+
   <script crossorigin src="{{ mix("js/{$js}.js") }}"></script>
-  
+<!--
     <script src="/js/uikit.min.js"></script>
-    <script src="/js/uikit-icons.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script> -->
 </body>
 </html>

@@ -32,6 +32,7 @@ mix.options({
         host: 'localhost',
         port: '8080'
     },
+
     terser: { terserOptions: { parallel: true } }
 })
 

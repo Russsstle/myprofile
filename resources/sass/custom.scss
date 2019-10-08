@@ -20,7 +20,7 @@
         width: 0;
     }
     to {
-        width: 10em;
+        width: 8.8em;
     }
 }
 @keyframes blinkTextCursor {
@@ -33,6 +33,9 @@
 }
 .top-fix {
     padding-top: 25px;
+}
+.hover :hover {
+    cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
     .center {

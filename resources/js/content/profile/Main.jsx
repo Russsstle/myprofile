@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
 // import autobind from 'autobind-decorator'
 import '../../../sass/custom.scss'
+import UIkit from 'uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
+
+// loads the Icon plugin
+UIkit.use(Icons)
 
 class Main extends Component {
     render() {
@@ -24,7 +29,7 @@ class Main extends Component {
 
                     <ul className='uk-position-center' style={{ color: 'white' }} uk-accordion='true'>
                         <li>
-                            <div className='  uk-accordion-title'>
+                            <div className='  uk-accordion-title hover'>
                                 {/* <button
                                     className='uk-button uk-button-default'
                                     style={{ paddingTop: 10 }}
@@ -40,7 +45,7 @@ class Main extends Component {
                                 <div className='center'>
                                     <img
                                         className='shadow'
-                                        src='./images/barong3.jpg'
+                                        src='/images/barong3.jpg'
                                         style={{
                                             height: 200,
                                             width: 150,
